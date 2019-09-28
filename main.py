@@ -4,25 +4,15 @@ from Multiply import Multiply
 from Division import Division
 from Subtraction import Subtraction
 
-print("Enter the operation to perform")
-print("1. Addition")
-print("2. Subtraction")
-print("3. Division")
-print("4. Multiplication")
+ a= Addition(2,3)
 
-inp = input()
+ s = Subtraction(2,3)
+ d= Division(2,3)
+ M = Multiply(2,3)
 
-if(inp=="1"):
-    op = Addition(2,3)
-elif(inp=="2"):
-    op = Subtraction(2,3)
-elif(inp=="3"):
-    op = Division(2,3)
-elif(inp=="4"):
-    op = Multiply(2,3)
-else:
-    print("Wrong input given")
-    sys.exit(0)
 
     
-print(op.operation(a,b))
+print("Addition is: " a)
+print("Addition is: " s)
+print("Addition is: " d)
+print("Addition is: " M)
