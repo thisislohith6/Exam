@@ -13,18 +13,16 @@ print("4. Multiplication")
 inp = input()
 
 if(inp=="1"):
-    op = Addition()
+    op = Addition(2,3)
 elif(inp=="2"):
-    op = Subtraction()
+    op = Subtraction(2,3)
 elif(inp=="3"):
-    op = Division()
+    op = Division(2,3)
 elif(inp=="4"):
-    op = Multiply()
+    op = Multiply(2,3)
 else:
     print("Wrong input given")
     sys.exit(0)
 
     
-a = input("A:")
-b = input("B:")
 print(op.operation(a,b))
